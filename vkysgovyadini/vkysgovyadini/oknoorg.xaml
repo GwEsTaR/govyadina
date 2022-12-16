@@ -11,11 +11,11 @@
         <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Окно Организатора" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,66,0,0" TextWrapping="Wrap" Text="Доброго времени суток" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,99,0,0" TextWrapping="Wrap" Text="Mr/Mrs имя" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" FontWeight="Bold"/>
-        <Button Content="Мероприятия" HorizontalAlignment="Left" Margin="313,147,0,0" VerticalAlignment="Top" Height="70" Width="192"/>
+        <Button Content="Мероприятия" HorizontalAlignment="Left" Margin="313,147,0,0" VerticalAlignment="Top" Height="70" Width="192" BorderBrush="#FFEFCF87"/>
         <Button Content="Участники" HorizontalAlignment="Left" Margin="313,222,0,0" VerticalAlignment="Top" Height="70" Width="192"/>
-        <Button Content="Жюри" HorizontalAlignment="Left" Margin="313,297,0,0" VerticalAlignment="Top" Height="70" Width="192"/>
+        <Button Content="Жюри" HorizontalAlignment="Left" Margin="313,297,0,0" VerticalAlignment="Top" Height="70" Width="192" BorderBrush="#FF0E0E0E"/>
         <Image HorizontalAlignment="Left" Height="158" Margin="10,124,0,0" VerticalAlignment="Top" Width="124"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,318,0,0" VerticalAlignment="Top" Height="66" Width="124" BorderBrush="#FFEDCA9E" Background="White" />
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,318,0,0" VerticalAlignment="Top" Height="66" Width="124" BorderBrush="#FFEFCDA2" Background="White" />
 
     </Grid>
 </Window>
