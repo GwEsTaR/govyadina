@@ -32,6 +32,6 @@
             </Style>
             </Button.Resources>
         </Button>
-        <Image HorizontalAlignment="Left" Height="59" Margin="26,46,0,0" VerticalAlignment="Top" Width="59"/>
+        <Image HorizontalAlignment="Left" Height="59" Margin="26,46,0,0" VerticalAlignment="Top" Width="59" Source="/bob.png" />
     </Grid>
 </Window>
