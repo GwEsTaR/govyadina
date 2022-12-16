@@ -25,7 +25,6 @@ C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\App.g.cs
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini_MarkupCompile.cache
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini_MarkupCompile.lref
-C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\App.baml
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\MainWindow.baml
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\oknoorg.baml
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.g.resources

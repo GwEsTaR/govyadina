@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vkysgovyadini"
         mc:Ignorable="d"
-        Title="Окно организатора" Height="450" Width="800">
+        Title="Окно организатора" Height="450" Width="800"
+        ResizeMode="NoResize">
     <Grid>
         <Rectangle HorizontalAlignment="Center" Height="379" Margin="0,55,0,0" Stroke="Black" VerticalAlignment="Top" Width="800"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Окно Организатора" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
