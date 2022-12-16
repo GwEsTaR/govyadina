@@ -1,0 +1,16 @@
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\bin\Debug\vkysgovyadini.exe.config
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\bin\Debug\vkysgovyadini.exe
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\bin\Debug\vkysgovyadini.pdb
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.AssemblyReference.cache
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.SuggestedBindingRedirects.cache
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\MainWindow.g.cs
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\App.g.cs
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini_MarkupCompile.cache
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini_MarkupCompile.lref
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\MainWindow.baml
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.g.resources
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.Properties.Resources.resources
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.GenerateResource.cache
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.CoreCompileInputs.cache
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.exe
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.pdb
