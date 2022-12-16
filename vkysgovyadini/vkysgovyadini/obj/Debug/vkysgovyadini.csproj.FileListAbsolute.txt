@@ -14,3 +14,4 @@ C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgo
 C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.CoreCompileInputs.cache
 C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.exe
 C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.pdb
+C:\Users\cherp\OneDrive\Документы\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\App.baml
