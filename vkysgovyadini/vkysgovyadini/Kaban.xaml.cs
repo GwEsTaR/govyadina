@@ -10,7 +10,6 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace vkysgovyadini
@@ -18,12 +17,11 @@ namespace vkysgovyadini
     /// <summary>
     /// Логика взаимодействия для Kaban.xaml
     /// </summary>
-    public partial class Kaban : Page
+    public partial class Kaban : Window
     {
         public Kaban()
         {
             InitializeComponent();
         }
-
     }
 }
