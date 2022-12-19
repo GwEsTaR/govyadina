@@ -10,7 +10,6 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace vkysgovyadini
@@ -18,16 +17,11 @@ namespace vkysgovyadini
     /// <summary>
     /// Логика взаимодействия для profile.xaml
     /// </summary>
-    public partial class profile : Page
+    public partial class profile : Window
     {
         public profile()
         {
             InitializeComponent();
-        }
-
-        private void CheckBox_Checked(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

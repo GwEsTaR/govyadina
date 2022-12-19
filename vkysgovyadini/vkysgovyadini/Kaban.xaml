@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vkysgovyadini"
         mc:Ignorable="d"
-        Title="Kaban" Height="480" Width="680">
+        Title="Kaban" Height="495" Width="690"
+        ResizeMode="NoResize">
 
     <Grid Background="White">
         <TextBlock HorizontalAlignment="Left" Margin="38,77,0,0" TextWrapping="Wrap" Text="Начало" FontSize="16" VerticalAlignment="Top" RenderTransformOrigin="0.047,-1.075"/>
