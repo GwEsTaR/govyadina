@@ -8,7 +8,21 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Kaban">
 
-    <Grid>
-        
+    <Grid Background="White">
+        <TextBlock HorizontalAlignment="Left" Margin="38,77,0,0" TextWrapping="Wrap" Text="Начало" FontSize="16" VerticalAlignment="Top" RenderTransformOrigin="0.047,-1.075"/>
+        <Label Content="Добавить мероприятие" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="117,77,0,0" TextWrapping="Wrap" Text="   /   /" VerticalAlignment="Top" Width="48" Height="20"/>
+        <DatePicker HorizontalAlignment="Left" Margin="188,77,0,0" VerticalAlignment="Top" Height="21" Width="103" FontSize="12"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,119,0,0" TextWrapping="Wrap" Text="Окончание" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Margin="117,120,0,0" TextWrapping="Wrap" Text="   /   /" VerticalAlignment="Top" Width="48" Height="20"/>
+        <DatePicker HorizontalAlignment="Left" Margin="188,119,0,0" VerticalAlignment="Top" Height="21" Width="103" FontSize="12"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Мероприятие" FontSize="16"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="2,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run FontSize="16" Language="ru-ru" Text="Направление"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="57,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run FontSize="16" Language="ru-ru" Text="Город"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="17,279,0,0" TextWrapping="Wrap" Text="Активности" FontSize="16" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="226,279,0,0" TextWrapping="Wrap" Text="Наименование" FontSize="16" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="488,279,0,0" TextWrapping="Wrap" Text="Время" FontSize="16" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="665,279,0,0" TextWrapping="Wrap" Text="Жюри" FontSize="16" VerticalAlignment="Top"/>
+
     </Grid>
 </Page>
