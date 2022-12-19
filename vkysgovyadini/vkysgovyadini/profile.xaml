@@ -33,7 +33,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="110,89,0,0" TextWrapping="Wrap" Text="ФИО:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="115,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Пол"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="53,146,0,0" TextWrapping="Wrap" Text="Дата рождения:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="80,194,0,0" TextWrapping="Wrap" Text="Id Number:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="80,198,0,0" TextWrapping="Wrap" Text="Id Number:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="99,0,0,0" TextWrapping="Wrap" Text="Страна:" VerticalAlignment="Center"/>
         <TextBlock HorizontalAlignment="Left" Margin="89,219,0,0" TextWrapping="Wrap" Text="Телефон:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="108,249,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
