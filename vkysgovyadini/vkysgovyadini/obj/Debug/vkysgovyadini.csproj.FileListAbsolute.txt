@@ -33,3 +33,7 @@ C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.CoreCompileInputs.cache
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.exe
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.pdb
+C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\KabanDoska.g.cs
+C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\profile.g.cs
+C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\KabanDoska.baml
+C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\profile.baml
