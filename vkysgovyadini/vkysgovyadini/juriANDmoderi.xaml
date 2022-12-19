@@ -1,0 +1,25 @@
+﻿<Window x:Class="vkysgovyadini.juriANDmoderi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:vkysgovyadini"
+        mc:Ignorable="d"
+        Title="juriANDmoderi" Height="450" Width="800">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" Margin="123,87,0,0" VerticalAlignment="Top" Width="213" Height="22"/>
+        <ComboBox HorizontalAlignment="Left" Margin="123,117,0,0" VerticalAlignment="Top" Width="213" Height="23"/>
+        <Button Content="Поиск" HorizontalAlignment="Center" Margin="0,113,0,0" VerticalAlignment="Top" Width="84" Background="White" Height="27">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="4"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,158,0,87"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,87,0,0" TextWrapping="Wrap" Text="Фамилия:" VerticalAlignment="Top" Width="100"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Text="Количесвто:"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,119,0,0" TextWrapping="Wrap" Text="Мероприятие:" VerticalAlignment="Top" Width="90"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" Text="ЖЮРИ/МОДЕРАТОРЫ" Width="272" FontSize="24" VerticalAlignment="Top" FontWeight="Bold"/>
+    </Grid>
+</Window>
