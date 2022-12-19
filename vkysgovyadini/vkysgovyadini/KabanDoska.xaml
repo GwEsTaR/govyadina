@@ -63,5 +63,6 @@
                 </Style>
             </Button.Resources>
         </Button>
+        <ComboBox HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" Width="398" Grid.Column="1" Height="25"/>
     </Grid>
 </Window>

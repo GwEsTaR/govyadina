@@ -48,6 +48,25 @@
                 </Style>
             </Button.Resources>
         </Button>
+        <TextBox HorizontalAlignment="Left" Margin="485,22,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185"/>
+        <TextBox HorizontalAlignment="Left" Margin="120,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199"/>
+        <TextBox HorizontalAlignment="Left" Margin="120,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199"/>
+        <TextBox HorizontalAlignment="Left" Margin="120,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199"/>
+        <Button Content="csv" HorizontalAlignment="Left" Margin="595,53,0,0" VerticalAlignment="Top" Width="75" Height="29">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="4"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Доска" HorizontalAlignment="Left" Margin="595,88,0,0" VerticalAlignment="Top" Height="32" Width="75">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="4"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Margin="120,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199"/>
 
     </Grid>
 </Window>
