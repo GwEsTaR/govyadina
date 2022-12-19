@@ -12,21 +12,21 @@
         <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Окно Организатора" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,66,0,0" TextWrapping="Wrap" Text="Доброго времени суток" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,99,0,0" TextWrapping="Wrap" Text="Mr/Mrs имя" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" FontWeight="Bold"/>
-        <Button Content="Мероприятия" HorizontalAlignment="Left" Margin="313,147,0,0" VerticalAlignment="Top" Height="70" Width="192" BorderBrush="#FF8A8987">
+        <Button Content="Мероприятия" HorizontalAlignment="Center" Margin="0,147,0,0" VerticalAlignment="Top" Height="70" Width="192" BorderBrush="#FF8A8987">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="10"></Setter>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Участники" HorizontalAlignment="Left" Margin="313,222,0,0" VerticalAlignment="Top" Height="70" Width="192" BorderBrush="#FF8A8987">
+        <Button Content="Участники" HorizontalAlignment="Center" Margin="0,222,0,0" VerticalAlignment="Top" Height="70" Width="192" BorderBrush="#FF8A8987">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="10"></Setter>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Жюри" HorizontalAlignment="Left" Margin="313,297,0,0" VerticalAlignment="Top" Height="70" Width="192" BorderBrush="#FF8A8987">
+        <Button Content="Жюри" HorizontalAlignment="Center" Margin="0,297,0,0" VerticalAlignment="Top" Height="70" Width="192" BorderBrush="#FF8A8987">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="10"></Setter>
@@ -40,7 +40,7 @@
                     <Setter Property="CornerRadius" Value="10"></Setter>
                 </Style>
             </Button.Resources>
-        </Button> 
+        </Button>
 
     </Grid>
 </Window>
