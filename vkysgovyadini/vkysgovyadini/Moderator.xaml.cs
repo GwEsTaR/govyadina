@@ -15,24 +15,13 @@ using System.Windows.Shapes;
 namespace vkysgovyadini
 {
     /// <summary>
-    /// Логика взаимодействия для profile.xaml
+    /// Логика взаимодействия для Moderator.xaml
     /// </summary>
-    public partial class profile : Window
+    public partial class Moderator : Window
     {
-        BaZeModelEntities db = new BaZeModelEntities();
-        
-        public profile()
+        public Moderator()
         {
             InitializeComponent();
-            
-
-
-
-        }   
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            
         }
     }
 }
