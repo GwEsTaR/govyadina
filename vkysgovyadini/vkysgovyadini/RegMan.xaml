@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vkysgovyadini"
         mc:Ignorable="d"
-        Title="RegMan" Height="431" Width="788">
+        Title="RegMan" Height="452" Width="802"
+        ResizeMode="NoResize">
     <Grid Margin="0,0,0,2">
         <TextBlock HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" Text="Регистрация участника" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="93,82,0,0" TextWrapping="Wrap" Text="Id Number:" VerticalAlignment="Top" FontSize="14"/>
@@ -20,10 +21,10 @@
         <TextBox HorizontalAlignment="Left" Margin="170,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="23"/>
         <TextBox HorizontalAlignment="Left" Margin="170,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="23"/>
         <Rectangle HorizontalAlignment="Left" Height="158" Margin="625,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="146"/>
-        <TextBlock HorizontalAlignment="Left" Margin="594,290,0,0" TextWrapping="Wrap" Text="Пароль:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="551,322,0,0" TextWrapping="Wrap" Text="Повтор пароля:" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="651,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
-        <TextBox HorizontalAlignment="Left" Margin="651,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <TextBlock HorizontalAlignment="Left" Margin="582,290,0,0" TextWrapping="Wrap" Text="Пароль:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="539,322,0,0" TextWrapping="Wrap" Text="Повтор пароля:" VerticalAlignment="Top" RenderTransformOrigin="0.369,0.722"/>
+        <TextBox HorizontalAlignment="Left" Margin="641,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <TextBox HorizontalAlignment="Left" Margin="641,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.495,0.518"/>
         <CheckBox Content="Видимый пароль" HorizontalAlignment="Left" Margin="625,346,0,0" VerticalAlignment="Top" Width="156"/>
         <Button Content="ОК" HorizontalAlignment="Left" Margin="638,386,0,0" VerticalAlignment="Top" Height="25" Width="65" Background="White">
             <Button.Resources>
@@ -32,7 +33,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Отмена" HorizontalAlignment="Left" Margin="716,386,0,0" VerticalAlignment="Top" Height="25" Width="65" Background="White">
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="716,386,0,0" VerticalAlignment="Top" Height="25" Width="65" Background="White" Click="Button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="6"></Setter>

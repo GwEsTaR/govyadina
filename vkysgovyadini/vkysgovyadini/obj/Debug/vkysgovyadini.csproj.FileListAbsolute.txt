@@ -136,3 +136,9 @@ C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\RegJuriAndModeri.baml
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\RegMan.baml
 C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.CopyComplete
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\Moderator.g.cs
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\MyActivity.g.cs
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\RegMan.g.cs
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\Moderator.baml
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\MyActivity.baml
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\RegMan.baml

@@ -28,5 +28,12 @@ namespace vkysgovyadini
         {
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            profile profile = new profile();
+            profile.Show();
+        }
     }
 }

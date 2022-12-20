@@ -21,5 +21,12 @@
         <TextBlock HorizontalAlignment="Left" Margin="60,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Text="Количество:"/>
         <TextBlock HorizontalAlignment="Left" Margin="33,119,0,0" TextWrapping="Wrap" Text="Мероприятие:" VerticalAlignment="Top" Width="90"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" Text="ЖЮРИ/МОДЕРАТОРЫ" Width="272" FontSize="24" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="710,30,0,0" VerticalAlignment="Top" Width="63" Click="Button_Click" Height="26">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 </Window>

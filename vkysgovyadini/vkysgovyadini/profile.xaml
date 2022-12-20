@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vkysgovyadini"
         mc:Ignorable="d"
-        Title="profile" Height="385" Width="660"
+        Title="profile" Height="420" Width="660"
         ResizeMode="NoResize">
     <Grid x:Name="___Без_имени_" Background="White">
         <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"><Run Language="ru-ru" Text="Мой профиль"/></TextBlock>

@@ -67,6 +67,13 @@
             </Button.Resources>
         </Button>
         <TextBox HorizontalAlignment="Left" Margin="120,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="595,130,0,0" VerticalAlignment="Top" Height="32" Width="75" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="4"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

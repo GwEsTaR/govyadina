@@ -28,5 +28,26 @@ namespace vkysgovyadini
         {
 
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            profile profile = new profile();
+            profile.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            juriANDmoderi juriANDmoderi = new juriANDmoderi();
+            juriANDmoderi.Show();
+        }
     }
 }
