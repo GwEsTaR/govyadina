@@ -14,7 +14,7 @@
         </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Доска" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30" FontWeight="Bold" Grid.Column="1"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,71,0,0" TextWrapping="Wrap" Text="Мероприятие" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" FontWeight="Bold" Grid.Column="1"/>
-        <Button Content="pdf" HorizontalAlignment="Left" Margin="696,71,0,0" VerticalAlignment="Top" Height="25" Width="94" BorderBrush="#FF8A8987" Grid.ColumnSpan="2">
+        <Button Content="pdf" HorizontalAlignment="Left" Margin="696,71,0,0" VerticalAlignment="Top" Height="25" Width="94" BorderBrush="#FF8A8987" Grid.ColumnSpan="2" Name="BtnExportToPDF" Click="BtnExportToPDF_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="10"/>
