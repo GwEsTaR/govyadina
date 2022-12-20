@@ -42,5 +42,6 @@
         </Button>
         <DatePicker HorizontalAlignment="Left" Margin="170,188,0,0" VerticalAlignment="Top" Width="187" />
         <ComboBox HorizontalAlignment="Left" Margin="170,284,0,0" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="IdnumberField" HorizontalAlignment="Left" Margin="181,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>

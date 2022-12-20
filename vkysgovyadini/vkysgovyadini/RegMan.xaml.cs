@@ -24,11 +24,26 @@ namespace vkysgovyadini
             InitializeComponent();
         }
 
+        private Пользователи _currentUser = new Пользователи();
+        
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            BaZeModelEntities.GetContext().Пользователи.Remove(_currentUser);
+            BaZeModelEntities.GetContext().SaveChanges();
+
             this.Hide();
             profile profile = new profile();
             profile.Show();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            BaZeModelEntities.GetContext().Пользователи.Add(_currentUser);
+            BaZeModelEntities.GetContext().SaveChanges();
+            var idnumber = _currentUser.idПользователя;
+            IdnumberField.Text = idnumber.ToString();
+        }
+
     }
 }
