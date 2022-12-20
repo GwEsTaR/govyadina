@@ -35,5 +35,10 @@ namespace vkysgovyadini
             profile profile = new profile();
             profile.Show();
         }
+
+        private void BtnExportToPDF_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
