@@ -39,7 +39,7 @@ namespace vkysgovyadini
         private void BtnExportToPDF_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            profile profile = new Kaban();
+            Kaban profile = new Kaban();
             profile.Show();
         }
     }

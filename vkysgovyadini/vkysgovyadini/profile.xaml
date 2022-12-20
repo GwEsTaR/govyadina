@@ -9,7 +9,7 @@
         ResizeMode="NoResize">
     <Grid x:Name="___Без_имени_" Background="White">
         <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"><Run Language="ru-ru" Text="Мой профиль"/></TextBlock>
-        <Button Content="Отмена" HorizontalAlignment="Left" Margin="520,310,0,0" VerticalAlignment="Top" Height="30" Width="80" BorderBrush="#FF8A8987" Click="Button_Click">
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="520,310,0,0" VerticalAlignment="Top" Height="30" Width="80" BorderBrush="#FF8A8987" Click="Button_Click" Background="White">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="10"></Setter>
@@ -38,14 +38,62 @@
         <TextBlock HorizontalAlignment="Left" Margin="95,142,0,0" TextWrapping="Wrap" Text="Страна:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="85,189,0,0" TextWrapping="Wrap" Text="Телефон:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="104,219,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
-        <Button Content="Окно организатора" HorizontalAlignment="Left" Margin="11,275,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_3"/>
-        <Button Content="Доска" HorizontalAlignment="Left" Margin="141,275,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_4"/>
-        <Button Content="Назв. мероприятия" HorizontalAlignment="Left" Margin="141,305,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_6"/>
-        <Button Content="Жюри/модераторы" HorizontalAlignment="Left" Margin="141,335,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_8"/>
-        <Button Content="Активность" HorizontalAlignment="Left" Margin="11,305,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_5"/>
-        <Button Content="Добав.мероприятие" HorizontalAlignment="Left" Margin="11,335,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_7"/>
-        <Button Content="Рег. жюри/модер." HorizontalAlignment="Left" Margin="141,247,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_2"/>
-        <Button Content="Рег. Участника" HorizontalAlignment="Left" Margin="11,247,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_1"/>
+        <Button Content="Окно организатора" HorizontalAlignment="Left" Margin="11,275,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_3" Background="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Доска" HorizontalAlignment="Left" Margin="141,275,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_4" Background="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Назв. мероприятия" HorizontalAlignment="Left" Margin="141,305,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_6" Background="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Жюри/модераторы" HorizontalAlignment="Left" Margin="141,335,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_8" Background="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Активность" HorizontalAlignment="Left" Margin="11,305,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_5" Background="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Добав.мероприятие" HorizontalAlignment="Left" Margin="11,335,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_7" Background="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Рег. жюри/модер." HorizontalAlignment="Left" Margin="141,247,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_2" Background="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Рег. Участника" HorizontalAlignment="Left" Margin="11,247,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_1" Background="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

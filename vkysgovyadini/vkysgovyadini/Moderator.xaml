@@ -28,7 +28,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="35,25,0,0" VerticalAlignment="Top" Height="33" Width="69" Click="Button_Click">
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="35,25,0,0" VerticalAlignment="Top" Height="33" Width="69" Click="Button_Click" Background="White">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"></Setter>
