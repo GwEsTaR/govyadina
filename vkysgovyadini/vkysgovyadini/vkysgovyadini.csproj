@@ -72,6 +72,9 @@
     <Compile Include="juriANDmoderi.xaml.cs">
       <DependentUpon>juriANDmoderi.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MyActivity.xaml.cs">
+      <DependentUpon>MyActivity.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegJuriAndModeri.xaml.cs">
       <DependentUpon>RegJuriAndModeri.xaml</DependentUpon>
     </Compile>
@@ -146,6 +149,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MyActivity.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="oknoorg.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
