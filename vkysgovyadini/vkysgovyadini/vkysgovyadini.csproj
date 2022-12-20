@@ -78,6 +78,9 @@
     <Compile Include="RegJuriAndModeri.xaml.cs">
       <DependentUpon>RegJuriAndModeri.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RegMan.xaml.cs">
+      <DependentUpon>RegMan.xaml</DependentUpon>
+    </Compile>
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>BAZA.tt</DependentUpon>
     </Compile>
@@ -162,6 +165,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RegJuriAndModeri.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegMan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
