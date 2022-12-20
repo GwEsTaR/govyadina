@@ -18,7 +18,7 @@
         </Button>
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,158,0,87"/>
         <TextBlock HorizontalAlignment="Left" Margin="60,87,0,0" TextWrapping="Wrap" Text="Фамилия:" VerticalAlignment="Top" Width="100"/>
-        <TextBlock HorizontalAlignment="Left" Margin="60,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Text="Количесвто:"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Text="Количество:"/>
         <TextBlock HorizontalAlignment="Left" Margin="33,119,0,0" TextWrapping="Wrap" Text="Мероприятие:" VerticalAlignment="Top" Width="90"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" Text="ЖЮРИ/МОДЕРАТОРЫ" Width="272" FontSize="24" VerticalAlignment="Top" FontWeight="Bold"/>
     </Grid>
