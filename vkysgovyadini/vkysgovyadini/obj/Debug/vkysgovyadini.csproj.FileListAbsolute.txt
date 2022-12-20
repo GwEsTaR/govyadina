@@ -98,3 +98,16 @@ C:\Users\User\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\j
 C:\Users\User\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\RegJuriAndModeri.g.cs
 C:\Users\User\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\juriANDmoderi.baml
 C:\Users\User\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\RegJuriAndModeri.baml
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\bin\Debug\EntityFramework.dll
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\bin\Debug\EntityFramework.xml
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\Aut.g.cs
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\juriANDmoderi.g.cs
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\RegJuriAndModeri.g.cs
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini_Content.g.cs
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\Aut.baml
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\juriANDmoderi.baml
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\RegJuriAndModeri.baml
+C:\Users\cherp\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.CopyComplete
