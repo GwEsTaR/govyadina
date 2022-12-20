@@ -44,6 +44,7 @@ namespace vkysgovyadini
                     this.Hide();
                     profile mainWindow = new profile();
                     mainWindow.Show();
+                    
                 }
                 if (curRolde.idРоль == 2)
                 {
@@ -60,7 +61,7 @@ namespace vkysgovyadini
 
 
                     this.Hide();
-                    oknoorg mainWindow = new oknoorg();
+                    MainWindow mainWindow = new MainWindow();
                     mainWindow.Show();
                 }
                 if (curRolde.idРоль == 4)
