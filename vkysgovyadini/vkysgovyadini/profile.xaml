@@ -15,7 +15,7 @@
                     <Setter Property="CornerRadius" Value="10"></Setter>
                 </Style>
             </Button.Resources>
-            
+
         </Button>
         <Image HorizontalAlignment="Left" Height="136" Margin="460,38,0,0" VerticalAlignment="Top" Width="107" Source="/bob.png"/>
         <Button Content="Ок" HorizontalAlignment="Left" Margin="420,310,0,0" VerticalAlignment="Top" Height="30" Width="80" Background="White" BorderBrush="#FF8A8987">
@@ -31,13 +31,21 @@
         <TextBlock HorizontalAlignment="Left" Margin="356,246,0,0" TextWrapping="Wrap" Text="Повтор пароля" VerticalAlignment="Top"/>
         <PasswordBox HorizontalAlignment="Left" Margin="446,246,0,0" VerticalAlignment="Top" Width="154"/>
         <CheckBox Content="Видимый пароль" HorizontalAlignment="Left" Margin="446,269,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="110,89,0,0" TextWrapping="Wrap" Text="ФИО:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="115,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Пол"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="53,146,0,0" TextWrapping="Wrap" Text="Дата рождения:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="80,198,0,0" TextWrapping="Wrap" Text="Id Number:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="99,172,0,0" TextWrapping="Wrap" Text="Страна:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="89,219,0,0" TextWrapping="Wrap" Text="Телефон:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="108,249,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="106,59,0,0" TextWrapping="Wrap" Text="ФИО:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="111,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Пол"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="49,116,0,0" TextWrapping="Wrap" Text="Дата рождения:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="76,168,0,0" TextWrapping="Wrap" Text="Id Number:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="95,142,0,0" TextWrapping="Wrap" Text="Страна:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="85,189,0,0" TextWrapping="Wrap" Text="Телефон:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="104,219,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
+        <Button Content="Окно организатора" HorizontalAlignment="Left" Margin="11,275,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_3"/>
+        <Button Content="Доска" HorizontalAlignment="Left" Margin="141,275,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_4"/>
+        <Button Content="Назв. мероприятия" HorizontalAlignment="Left" Margin="141,305,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_6"/>
+        <Button Content="Жюри/модераторы" HorizontalAlignment="Left" Margin="141,335,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_8"/>
+        <Button Content="Активность" HorizontalAlignment="Left" Margin="11,305,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_5"/>
+        <Button Content="Добав.мероприятие" HorizontalAlignment="Left" Margin="11,335,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_7"/>
+        <Button Content="Рег. жюри/модер." HorizontalAlignment="Left" Margin="141,247,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_2"/>
+        <Button Content="Рег. Участника" HorizontalAlignment="Left" Margin="11,247,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

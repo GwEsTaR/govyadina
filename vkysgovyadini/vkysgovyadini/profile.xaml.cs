@@ -34,5 +34,61 @@ namespace vkysgovyadini
         {
             
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            RegMan mainWindow = new RegMan();
+            mainWindow.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            RegJuriAndModeri mainWindow = new RegJuriAndModeri();
+            mainWindow.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            oknoorg mainWindow = new oknoorg();
+            mainWindow.Show();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            KabanDoska mainWindow = new KabanDoska();
+            mainWindow.Show();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MyActivity mainWindow = new MyActivity();
+            mainWindow.Show();
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Kaban mainWindow = new Kaban();
+            mainWindow.Show();
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            juriANDmoderi mainWindow = new juriANDmoderi();
+            mainWindow.Show();
+        }
     }
 }
