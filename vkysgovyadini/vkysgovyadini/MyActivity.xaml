@@ -17,7 +17,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Активность 2" HorizontalAlignment="Left" Margin="10,264,0,0" VerticalAlignment="Top" Height="66" Width="276" Background="White" BorderBrush="#FF8A8987" Click="Button_Click" FontSize="16">
+        <Button Content="Активность 2" HorizontalAlignment="Left" Margin="10,264,0,0" VerticalAlignment="Top" Height="66" Width="276" Background="White" BorderBrush="#FF8A8987" Click="Gay_Click" FontSize="16">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="10"/>

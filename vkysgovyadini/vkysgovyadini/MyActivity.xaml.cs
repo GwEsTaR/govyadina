@@ -28,5 +28,10 @@ namespace vkysgovyadini
         {
 
         }
+
+        private void Gay_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
