@@ -27,7 +27,7 @@ namespace vkysgovyadini
 
         private void Button_Login(object sender, RoutedEventArgs e)
         {
-            BaZeModelEntities db = new BaZeModelEntities();
+            BaZeEntities1 db = new BaZeEntities1();
             string Pochta = MAILR.Text;
             string PAROL = PasswordR.Password;
             

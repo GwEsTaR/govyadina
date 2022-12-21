@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:vkysgovyadini"
         mc:Ignorable="d"
         Title="RegMan" Height="452" Width="802"
-        ResizeMode="NoResize">
+        ResizeMode="NoResize" Loaded="Window_Loaded_1">
     <Grid Margin="0,0,0,2">
         <TextBlock HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" Text="Регистрация участника" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="93,82,0,0" TextWrapping="Wrap" Text="Id Number:" VerticalAlignment="Top" FontSize="14"/>
