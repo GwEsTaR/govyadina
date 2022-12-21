@@ -29,8 +29,8 @@ namespace vkysgovyadini
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            BaZeEntities1.GetContext().Пользователи.Remove(_currentUser);
-            BaZeEntities1.GetContext().SaveChanges();
+            BaZeEntities2.GetContext().Пользователи.Remove(_currentUser);
+            BaZeEntities2.GetContext().SaveChanges();
 
             this.Hide();
             profile profile = new profile();
@@ -45,8 +45,8 @@ namespace vkysgovyadini
 
         private void Window_Loaded_1(object sender, RoutedEventArgs e)
         {
-            BaZeEntities1.GetContext().Пользователи.Add(_currentUser);
-            BaZeEntities1.GetContext().SaveChanges();
+            BaZeEntities2.GetContext().Пользователи.Add(_currentUser);
+            BaZeEntities2.GetContext().SaveChanges();
             var idnumber = _currentUser.idПользователя;
             IdnumberField.Text = idnumber.ToString();
 

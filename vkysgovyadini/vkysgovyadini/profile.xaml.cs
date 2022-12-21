@@ -19,7 +19,7 @@ namespace vkysgovyadini
     /// </summary>
     public partial class profile : Window
     {
-        BaZeEntities1 db = new BaZeEntities1();
+        BaZeEntities2 db = new BaZeEntities2();
         
         public profile()
         {

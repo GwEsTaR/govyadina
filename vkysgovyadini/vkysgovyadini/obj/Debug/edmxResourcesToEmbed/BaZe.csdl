@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BaZeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Активности">
+    <Key>
+      <PropertyRef Name="КодАктивности" />
+    </Key>
+    <Property Name="КодАктивности" Type="Int32" Nullable="false" />
+    <Property Name="КодМероприятия" Type="Int32" />
+    <Property Name="Победители" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="НазваниеАктивности" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="День" Type="Int32" />
+    <Property Name="ВремяНачала" Type="Time" Precision="7" />
+    <NavigationProperty Name="Мероприятия" Relationship="Self.FK_Активности_Мероприятия" FromRole="Активности" ToRole="Мероприятия" />
+  </EntityType>
+  <EntityType Name="Города">
+    <Key>
+      <PropertyRef Name="КодГорода" />
+    </Key>
+    <Property Name="КодГорода" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Герб" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Название" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="КодСтраны" Type="Int32" />
+    <NavigationProperty Name="Страны" Relationship="Self.FK_Города_Страны" FromRole="Города" ToRole="Страны" />
+    <NavigationProperty Name="Мероприятия" Relationship="Self.FK_Мероприятия_Города" FromRole="Города" ToRole="Мероприятия" />
+  </EntityType>
+  <EntityType Name="Мероприятия">
+    <Key>
+      <PropertyRef Name="КодМероприятия" />
+    </Key>
+    <Property Name="КодМероприятия" Type="Int32" Nullable="false" />
+    <Property Name="КодГорода" Type="Int32" />
+    <Property Name="События" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ДатаНачала" Type="DateTime" Precision="0" />
+    <Property Name="Продолжительность" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="КодНаправления" Type="Int32" />
+    <NavigationProperty Name="Активности" Relationship="Self.FK_Активности_Мероприятия" FromRole="Мероприятия" ToRole="Активности" />
+    <NavigationProperty Name="Города" Relationship="Self.FK_Мероприятия_Города" FromRole="Мероприятия" ToRole="Города" />
+    <NavigationProperty Name="Направление" Relationship="Self.FK_Мероприятия_Направление" FromRole="Мероприятия" ToRole="Направление" />
+  </EntityType>
+  <EntityType Name="Направление">
+    <Key>
+      <PropertyRef Name="КодНаправления" />
+    </Key>
+    <Property Name="КодНаправления" Type="Int32" Nullable="false" />
+    <Property Name="НазваниеНаправления" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Мероприятия" Relationship="Self.FK_Мероприятия_Направление" FromRole="Направление" ToRole="Мероприятия" />
+    <NavigationProperty Name="Пользователи" Relationship="Self.FK_Пользователи_Направление" FromRole="Направление" ToRole="Пользователи" />
+  </EntityType>
+  <EntityType Name="Пользователи">
+    <Key>
+      <PropertyRef Name="idПользователя" />
+    </Key>
+    <Property Name="idПользователя" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idРоль" Type="Int32" />
+    <Property Name="КодСтраны" Type="Int32" />
+    <Property Name="КодНаправления" Type="Int32" />
+    <Property Name="Телефон" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Пароль" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Фото" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="ФИО" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Пол" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Направление" Relationship="Self.FK_Пользователи_Направление" FromRole="Пользователи" ToRole="Направление" />
+    <NavigationProperty Name="Роли" Relationship="Self.FK_Пользователи_Роли" FromRole="Пользователи" ToRole="Роли" />
+    <NavigationProperty Name="Страны" Relationship="Self.FK_Пользователи_Страны" FromRole="Пользователи" ToRole="Страны" />
+  </EntityType>
+  <EntityType Name="Роли">
+    <Key>
+      <PropertyRef Name="idРоль" />
+    </Key>
+    <Property Name="idРоль" Type="Int32" Nullable="false" />
+    <Property Name="НазваниеРоли" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Пользователи" Relationship="Self.FK_Пользователи_Роли" FromRole="Роли" ToRole="Пользователи" />
+  </EntityType>
+  <EntityType Name="Страны">
+    <Key>
+      <PropertyRef Name="КодСтраны" />
+    </Key>
+    <Property Name="КодСтраны" Type="Int32" Nullable="false" />
+    <Property Name="Название_страны" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Английское_название" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="КодБуквы" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Города" Relationship="Self.FK_Города_Страны" FromRole="Страны" ToRole="Города" />
+    <NavigationProperty Name="Пользователи" Relationship="Self.FK_Пользователи_Страны" FromRole="Страны" ToRole="Пользователи" />
+  </EntityType>
+  <Association Name="FK_Активности_Мероприятия">
+    <End Role="Мероприятия" Type="Self.Мероприятия" Multiplicity="0..1" />
+    <End Role="Активности" Type="Self.Активности" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Мероприятия">
+        <PropertyRef Name="КодМероприятия" />
+      </Principal>
+      <Dependent Role="Активности">
+        <PropertyRef Name="КодМероприятия" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Города_Страны">
+    <End Role="Страны" Type="Self.Страны" Multiplicity="0..1" />
+    <End Role="Города" Type="Self.Города" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Страны">
+        <PropertyRef Name="КодСтраны" />
+      </Principal>
+      <Dependent Role="Города">
+        <PropertyRef Name="КодСтраны" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Мероприятия_Города">
+    <End Role="Города" Type="Self.Города" Multiplicity="0..1" />
+    <End Role="Мероприятия" Type="Self.Мероприятия" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Города">
+        <PropertyRef Name="КодГорода" />
+      </Principal>
+      <Dependent Role="Мероприятия">
+        <PropertyRef Name="КодГорода" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Мероприятия_Направление">
+    <End Role="Направление" Type="Self.Направление" Multiplicity="0..1" />
+    <End Role="Мероприятия" Type="Self.Мероприятия" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Направление">
+        <PropertyRef Name="КодНаправления" />
+      </Principal>
+      <Dependent Role="Мероприятия">
+        <PropertyRef Name="КодНаправления" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Пользователи_Направление">
+    <End Role="Направление" Type="Self.Направление" Multiplicity="0..1" />
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Направление">
+        <PropertyRef Name="КодНаправления" />
+      </Principal>
+      <Dependent Role="Пользователи">
+        <PropertyRef Name="КодНаправления" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Пользователи_Роли">
+    <End Role="Роли" Type="Self.Роли" Multiplicity="0..1" />
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Роли">
+        <PropertyRef Name="idРоль" />
+      </Principal>
+      <Dependent Role="Пользователи">
+        <PropertyRef Name="idРоль" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Пользователи_Страны">
+    <End Role="Страны" Type="Self.Страны" Multiplicity="0..1" />
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Страны">
+        <PropertyRef Name="КодСтраны" />
+      </Principal>
+      <Dependent Role="Пользователи">
+        <PropertyRef Name="КодСтраны" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BaZeEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Активности" EntityType="Self.Активности" />
+    <EntitySet Name="Города" EntityType="Self.Города" />
+    <EntitySet Name="Мероприятия" EntityType="Self.Мероприятия" />
+    <EntitySet Name="Направление" EntityType="Self.Направление" />
+    <EntitySet Name="Пользователи" EntityType="Self.Пользователи" />
+    <EntitySet Name="Роли" EntityType="Self.Роли" />
+    <EntitySet Name="Страны" EntityType="Self.Страны" />
+    <AssociationSet Name="FK_Активности_Мероприятия" Association="Self.FK_Активности_Мероприятия">
+      <End Role="Мероприятия" EntitySet="Мероприятия" />
+      <End Role="Активности" EntitySet="Активности" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Города_Страны" Association="Self.FK_Города_Страны">
+      <End Role="Страны" EntitySet="Страны" />
+      <End Role="Города" EntitySet="Города" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Мероприятия_Города" Association="Self.FK_Мероприятия_Города">
+      <End Role="Города" EntitySet="Города" />
+      <End Role="Мероприятия" EntitySet="Мероприятия" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Мероприятия_Направление" Association="Self.FK_Мероприятия_Направление">
+      <End Role="Направление" EntitySet="Направление" />
+      <End Role="Мероприятия" EntitySet="Мероприятия" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Пользователи_Направление" Association="Self.FK_Пользователи_Направление">
+      <End Role="Направление" EntitySet="Направление" />
+      <End Role="Пользователи" EntitySet="Пользователи" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Пользователи_Роли" Association="Self.FK_Пользователи_Роли">
+      <End Role="Роли" EntitySet="Роли" />
+      <End Role="Пользователи" EntitySet="Пользователи" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Пользователи_Страны" Association="Self.FK_Пользователи_Страны">
+      <End Role="Страны" EntitySet="Страны" />
+      <End Role="Пользователи" EntitySet="Пользователи" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

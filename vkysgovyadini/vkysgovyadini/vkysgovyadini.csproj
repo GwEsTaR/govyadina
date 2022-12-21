@@ -64,23 +64,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BaZe.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BaZe.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BaZe.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BaZe.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BaZe.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BaZe.edmx</DependentUpon>
+    </Compile>
     <Compile Include="juriANDmoderi.xaml.cs">
       <DependentUpon>juriANDmoderi.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
     <Compile Include="Moderator.xaml.cs">
       <DependentUpon>Moderator.xaml</DependentUpon>
@@ -95,28 +95,28 @@
       <DependentUpon>RegMan.xaml</DependentUpon>
     </Compile>
     <Compile Include="sysdiagrams.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>BaZe.tt</DependentUpon>
     </Compile>
     <Compile Include="Активности.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>BaZe.tt</DependentUpon>
     </Compile>
     <Compile Include="Города.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>BaZe.tt</DependentUpon>
     </Compile>
     <Compile Include="Мероприятия.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>BaZe.tt</DependentUpon>
     </Compile>
     <Compile Include="Направление.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>BaZe.tt</DependentUpon>
     </Compile>
     <Compile Include="Пользователи.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>BaZe.tt</DependentUpon>
     </Compile>
     <Compile Include="Роли.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>BaZe.tt</DependentUpon>
     </Compile>
     <Compile Include="Страны.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>BaZe.tt</DependentUpon>
     </Compile>
     <Page Include="Aut.xaml">
       <SubType>Designer</SubType>
@@ -204,12 +204,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="Model1.edmx">
+    <EntityDeploy Include="BaZe.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+      <LastGenOutput>BaZe.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Model1.edmx.diagram">
-      <DependentUpon>Model1.edmx</DependentUpon>
+    <None Include="BaZe.edmx.diagram">
+      <DependentUpon>BaZe.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -230,15 +230,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Model1.Context.tt">
+    <Content Include="BaZe.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>BaZe.edmx</DependentUpon>
+      <LastGenOutput>BaZe.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Model1.tt">
+    <Content Include="BaZe.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.cs</LastGenOutput>
+      <DependentUpon>BaZe.edmx</DependentUpon>
+      <LastGenOutput>BaZe.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

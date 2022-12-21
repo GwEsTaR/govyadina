@@ -14,12 +14,6 @@ namespace vkysgovyadini
     
     public partial class Активности
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Активности()
-        {
-            this.Пользователи = new HashSet<Пользователи>();
-        }
-    
         public int КодАктивности { get; set; }
         public Nullable<int> КодМероприятия { get; set; }
         public string Победители { get; set; }
@@ -28,7 +22,5 @@ namespace vkysgovyadini
         public Nullable<System.TimeSpan> ВремяНачала { get; set; }
     
         public virtual Мероприятия Мероприятия { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Пользователи> Пользователи { get; set; }
     }
 }

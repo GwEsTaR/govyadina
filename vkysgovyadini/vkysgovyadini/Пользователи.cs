@@ -14,12 +14,6 @@ namespace vkysgovyadini
     
     public partial class Пользователи
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Пользователи()
-        {
-            this.Активности = new HashSet<Активности>();
-        }
-    
         public int idПользователя { get; set; }
         public Nullable<int> idРоль { get; set; }
         public Nullable<int> КодСтраны { get; set; }
@@ -34,7 +28,5 @@ namespace vkysgovyadini
         public virtual Направление Направление { get; set; }
         public virtual Роли Роли { get; set; }
         public virtual Страны Страны { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Активности> Активности { get; set; }
     }
 }
