@@ -21,6 +21,7 @@
     <Property Name="День" Type="Int32" />
     <Property Name="ВремяНачала" Type="Time" Precision="7" />
     <NavigationProperty Name="Мероприятия" Relationship="Self.FK_Активности_Мероприятия" FromRole="Активности" ToRole="Мероприятия" />
+    <NavigationProperty Name="Пользователи" Relationship="Self.Заявки_на_Активность" FromRole="Активности" ToRole="Пользователи" />
   </EntityType>
   <EntityType Name="Города">
     <Key>
@@ -73,6 +74,7 @@
     <NavigationProperty Name="Направление" Relationship="Self.FK_Пользователи_Направление" FromRole="Пользователи" ToRole="Направление" />
     <NavigationProperty Name="Роли" Relationship="Self.FK_Пользователи_Роли" FromRole="Пользователи" ToRole="Роли" />
     <NavigationProperty Name="Страны" Relationship="Self.FK_Пользователи_Страны" FromRole="Пользователи" ToRole="Страны" />
+    <NavigationProperty Name="Активности" Relationship="Self.Заявки_на_Активность" FromRole="Пользователи" ToRole="Активности" />
   </EntityType>
   <EntityType Name="Роли">
     <Key>
@@ -177,7 +179,11 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="BaZeEntities2" annotation:LazyLoadingEnabled="true">
+  <Association Name="Заявки_на_Активность">
+    <End Role="Активности" Type="Self.Активности" Multiplicity="*" />
+    <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="BaZeEntities3" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
     <EntitySet Name="Активности" EntityType="Self.Активности" />
     <EntitySet Name="Города" EntityType="Self.Города" />
@@ -212,6 +218,10 @@
     </AssociationSet>
     <AssociationSet Name="FK_Пользователи_Страны" Association="Self.FK_Пользователи_Страны">
       <End Role="Страны" EntitySet="Страны" />
+      <End Role="Пользователи" EntitySet="Пользователи" />
+    </AssociationSet>
+    <AssociationSet Name="Заявки_на_Активность" Association="Self.Заявки_на_Активность">
+      <End Role="Активности" EntitySet="Активности" />
       <End Role="Пользователи" EntitySet="Пользователи" />
     </AssociationSet>
   </EntityContainer>

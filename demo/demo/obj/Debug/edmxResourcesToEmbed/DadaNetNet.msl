@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище MeropModelContainer" CdmEntityContainer="MeropEntities">
+    <EntitySetMapping Name="Активности">
+      <EntityTypeMapping TypeName="MeropModel.Активности">
+        <MappingFragment StoreEntitySet="Активности">
+          <ScalarProperty Name="КодАктивности" ColumnName="КодАктивности" />
+          <ScalarProperty Name="КодМероприятия" ColumnName="КодМероприятия" />
+          <ScalarProperty Name="Победители" ColumnName="Победители" />
+          <ScalarProperty Name="НазваниеАтивности" ColumnName="НазваниеАтивности" />
+          <ScalarProperty Name="День" ColumnName="День" />
+          <ScalarProperty Name="ВремяНачала" ColumnName="ВремяНачала" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Город">
+      <EntityTypeMapping TypeName="MeropModel.Город">
+        <MappingFragment StoreEntitySet="Город">
+          <ScalarProperty Name="КодСтраны" ColumnName="КодСтраны" />
+          <ScalarProperty Name="КодГорода" ColumnName="КодГорода" />
+          <ScalarProperty Name="Герб" ColumnName="Герб" />
+          <ScalarProperty Name="Название" ColumnName="Название" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Мероприятия">
+      <EntityTypeMapping TypeName="MeropModel.Мероприятия">
+        <MappingFragment StoreEntitySet="Мероприятия">
+          <ScalarProperty Name="КодМероприятия" ColumnName="КодМероприятия" />
+          <ScalarProperty Name="КодГорода" ColumnName="КодГорода" />
+          <ScalarProperty Name="События" ColumnName="События" />
+          <ScalarProperty Name="ДатаНачала" ColumnName="ДатаНачала" />
+          <ScalarProperty Name="Продолжительность" ColumnName="Продолжительность" />
+          <ScalarProperty Name="КодНаправления" ColumnName="КодНаправления" />
+          <ScalarProperty Name="Описание" ColumnName="Описание" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Направление">
+      <EntityTypeMapping TypeName="MeropModel.Направление">
+        <MappingFragment StoreEntitySet="Направление">
+          <ScalarProperty Name="КодНапраления" ColumnName="КодНапраления" />
+          <ScalarProperty Name="НазваниеНаправления" ColumnName="НазваниеНаправления" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Пользователи">
+      <EntityTypeMapping TypeName="MeropModel.Пользователи">
+        <MappingFragment StoreEntitySet="Пользователи">
+          <ScalarProperty Name="idПользователя" ColumnName="idПользователя" />
+          <ScalarProperty Name="IdРоль" ColumnName="IdРоль" />
+          <ScalarProperty Name="КодСтраны" ColumnName="КодСтраны" />
+          <ScalarProperty Name="КодНаправления" ColumnName="КодНаправления" />
+          <ScalarProperty Name="ДатаРождения" ColumnName="ДатаРождения" />
+          <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+          <ScalarProperty Name="Пароль" ColumnName="Пароль" />
+          <ScalarProperty Name="Фото" ColumnName="Фото" />
+          <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+          <ScalarProperty Name="Пол" ColumnName="Пол" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Роли">
+      <EntityTypeMapping TypeName="MeropModel.Роли">
+        <MappingFragment StoreEntitySet="Роли">
+          <ScalarProperty Name="idРоль" ColumnName="idРоль" />
+          <ScalarProperty Name="НазваниеРоли" ColumnName="НазваниеРоли" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Страны">
+      <EntityTypeMapping TypeName="MeropModel.Страны">
+        <MappingFragment StoreEntitySet="Страны">
+          <ScalarProperty Name="КодСтраны" ColumnName="КодСтраны" />
+          <ScalarProperty Name="Название" ColumnName="Название" />
+          <ScalarProperty Name="АнглНазвание" ColumnName="АнглНазвание" />
+          <ScalarProperty Name="КодБуквы" ColumnName="КодБуквы" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ЗаявкаНаАктивность" TypeName="MeropModel.ЗаявкаНаАктивность" StoreEntitySet="ЗаявкаНаАктивность">
+      <EndProperty Name="Активности">
+        <ScalarProperty Name="КодАктивности" ColumnName="КодАктивности" />
+      </EndProperty>
+      <EndProperty Name="Пользователи">
+        <ScalarProperty Name="idПользователя" ColumnName="idПользователя" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

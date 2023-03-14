@@ -19,16 +19,18 @@ namespace vkysgovyadini
     /// </summary>
     public partial class profile : Window
     {
-        BaZeEntities2 db = new BaZeEntities2();
-        
+        BaZeEntities3 db = new BaZeEntities3();
+
         public profile()
         {
             InitializeComponent();
-            
+
+           
 
 
 
-        }   
+        }
+        private Пользователи _currentUser = new Пользователи();
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -89,6 +91,11 @@ namespace vkysgovyadini
             this.Hide();
             juriANDmoderi mainWindow = new juriANDmoderi();
             mainWindow.Show();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+          
         }
     }
 }

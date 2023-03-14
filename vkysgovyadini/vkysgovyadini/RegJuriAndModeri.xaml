@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vkysgovyadini"
         mc:Ignorable="d"
-        Title="RegJuriAndModeri" Height="450" Width="800">
+        Title="RegJuriAndModeri" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <TextBlock HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" Text="Регистрация ЖЮРИ/МОДЕРАТОРА" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="93,82,0,0" TextWrapping="Wrap" Text="Id Number:" VerticalAlignment="Top" FontSize="14"/>
@@ -17,7 +17,6 @@
         <TextBlock HorizontalAlignment="Left" Margin="75,281,0,0" TextWrapping="Wrap" Text="Направление:" VerticalAlignment="Top" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="70,335,0,0" TextWrapping="Wrap" Text="Мероприятие:" VerticalAlignment="Top" FontSize="14" Width="110"/>
         <ComboBox HorizontalAlignment="Left" Margin="170,151,0,0" VerticalAlignment="Top" Width="187"/>
-        <ComboBox HorizontalAlignment="Left" Margin="170,116,0,0" VerticalAlignment="Top" Width="187"/>
         <TextBox HorizontalAlignment="Left" Margin="170,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="23"/>
         <TextBox HorizontalAlignment="Left" Margin="170,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="23"/>
         <TextBox HorizontalAlignment="Left" Margin="170,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="23"/>
@@ -46,5 +45,7 @@
                 </Style>
             </Button.Resources>
         </Button>
+        <TextBox x:Name="Idnumberr" HorizontalAlignment="Left" Margin="178,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="167,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="23"/>
     </Grid>
 </Window>

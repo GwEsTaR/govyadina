@@ -1,0 +1,8 @@
+C:\Users\slies\Documents\GitHub\govyadina\rgqe\rgqe\bin\Debug\rgqe.exe.config
+C:\Users\slies\Documents\GitHub\govyadina\rgqe\rgqe\bin\Debug\rgqe.exe
+C:\Users\slies\Documents\GitHub\govyadina\rgqe\rgqe\bin\Debug\rgqe.pdb
+C:\Users\slies\Documents\GitHub\govyadina\rgqe\rgqe\obj\Debug\rgqe.csproj.AssemblyReference.cache
+C:\Users\slies\Documents\GitHub\govyadina\rgqe\rgqe\obj\Debug\rgqe.csproj.SuggestedBindingRedirects.cache
+C:\Users\slies\Documents\GitHub\govyadina\rgqe\rgqe\obj\Debug\rgqe.csproj.CoreCompileInputs.cache
+C:\Users\slies\Documents\GitHub\govyadina\rgqe\rgqe\obj\Debug\rgqe.exe
+C:\Users\slies\Documents\GitHub\govyadina\rgqe\rgqe\obj\Debug\rgqe.pdb

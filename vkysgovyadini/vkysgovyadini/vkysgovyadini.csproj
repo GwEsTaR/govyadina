@@ -88,6 +88,9 @@
     <Compile Include="MyActivity.xaml.cs">
       <DependentUpon>MyActivity.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Poxui.xaml.cs">
+      <DependentUpon>Poxui.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegJuriAndModeri.xaml.cs">
       <DependentUpon>RegJuriAndModeri.xaml</DependentUpon>
     </Compile>
@@ -164,6 +167,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="oknoorg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Poxui.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

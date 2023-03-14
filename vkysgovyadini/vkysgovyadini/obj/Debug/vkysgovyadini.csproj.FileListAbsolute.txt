@@ -185,3 +185,5 @@ C:\Users\vanim\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\
 C:\Users\vanim\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.GenerateResource.cache
 C:\Users\vanim\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.CoreCompileInputs.cache
 C:\Users\vanim\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\vkysgovyadini.csproj.CopyComplete
+C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\Poxui.g.cs
+C:\Users\slies\Documents\GitHub\govyadina\vkysgovyadini\vkysgovyadini\obj\Debug\Poxui.baml

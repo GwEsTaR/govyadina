@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Хранилище BaZeModelContainer" CdmEntityContainer="BaZeEntities2">
+  <EntityContainerMapping StorageEntityContainer="Хранилище BaZeModelContainer" CdmEntityContainer="BaZeEntities3">
     <EntitySetMapping Name="sysdiagrams">
       <EntityTypeMapping TypeName="BaZeModel.sysdiagrams">
         <MappingFragment StoreEntitySet="sysdiagrams">
@@ -88,5 +88,13 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <AssociationSetMapping Name="Заявки_на_Активность" TypeName="BaZeModel.Заявки_на_Активность" StoreEntitySet="Заявки на Активность">
+      <EndProperty Name="Активности">
+        <ScalarProperty Name="КодАктивности" ColumnName="КодАктивности" />
+      </EndProperty>
+      <EndProperty Name="Пользователи">
+        <ScalarProperty Name="idПользователя" ColumnName="idПользователя" />
+      </EndProperty>
+    </AssociationSetMapping>
   </EntityContainerMapping>
 </Mapping>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="vkysgovyadini.Poxui"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:vkysgovyadini"
+        mc:Ignorable="d"
+        Title="Poxui" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid Name="datagrid1" Margin="0,135,0,82"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,33,0,0" TextWrapping="Wrap" Text="Добро пожаловать в программу мероприятий" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Width="516"/>
+        <Button Content="Авторизация" HorizontalAlignment="Center" Margin="0,385,0,0" VerticalAlignment="Top" Height="26" Width="106" Click="Button_Click"/>
+
+    </Grid>
+</Window>

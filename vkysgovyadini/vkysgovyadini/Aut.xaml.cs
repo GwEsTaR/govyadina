@@ -27,7 +27,7 @@ namespace vkysgovyadini
 
         private void Button_Login(object sender, RoutedEventArgs e)
         {
-            BaZeEntities2 db = new BaZeEntities2();
+            BaZeEntities3 db = new BaZeEntities3();
             string Pochta = MAILR.Text;
             string PAROL = PasswordR.Password;
             
@@ -42,7 +42,7 @@ namespace vkysgovyadini
 
 
                     this.Hide();
-                    profile mainWindow = new profile();
+                    oknoorg mainWindow = new oknoorg();
                     mainWindow.Show();
                     
                 }
@@ -61,7 +61,7 @@ namespace vkysgovyadini
 
 
                     this.Hide();
-                    MainWindow mainWindow = new MainWindow();
+                    oknoorg mainWindow = new oknoorg();
                     mainWindow.Show();
                 }
                 if (curRolde.idРоль == 4)

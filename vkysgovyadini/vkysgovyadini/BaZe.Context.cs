@@ -13,22 +13,21 @@ namespace vkysgovyadini
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class BaZeEntities2 : DbContext
+    public partial class BaZeEntities3 : DbContext
     {
-        private static BaZeEntities2 _context;
-        public BaZeEntities2()
-            : base("name=BaZeEntities2")
+        private static BaZeEntities3 _context;
+        public BaZeEntities3()
+            : base("name=BaZeEntities3")
         {
         }
 
-        public static BaZeEntities2 GetContext()
+        public static BaZeEntities3 GetContext()
         {
             if (_context == null)
-                _context = new BaZeEntities2();
+                _context = new BaZeEntities3();
 
             return _context;
         }
-    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
